@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data_Driven_Framework">
+
+   <test name="Login test">
+    <classes>
+        <class name="POM_FaceBookTestCases.Tc_01_LoginTest"></class>  
+    </classes>
+</test>
+
+<test name="Click Profile test">
+    <classes>
+        <class name="POM_FaceBookTestCases.Tc_02_ProfileTest"></class>  
+    </classes>
+</test>
+
+
+<test name="Edit Profile test">
+    <classes>
+        <class name="POM_FaceBookTestCases.Tc_03_EditProfileTest"></class>  
+    </classes>
+</test>
+
+
+<test name="Upload photo test">
+    <classes>
+        <class name="POM_FaceBookTestCases.Tc_04_UploadPhotoTest"></class>  
+    </classes>
+</test>
+
+  
+<test name="Save photo test">
+    <classes>
+        <class name="POM_FaceBookTestCases.Tc_05_SaveButtonTest" ></class>  
+    </classes>
+</test>
+
+ 
+  </suite> 
