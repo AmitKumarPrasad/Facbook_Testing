@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data_Driven_Framework" duration-ms="69503" started-at="2020-05-24T06:27:14 IST" finished-at="2020-05-24T06:28:23 IST">
+    <groups>
+    </groups>
+    <test name="Login test" duration-ms="29307" started-at="2020-05-24T06:27:14 IST" finished-at="2020-05-24T06:27:43 IST">
+      <class name="POM_FaceBookTestCases.Tc_01_LoginTest">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:POM_FaceBookTestCases.Tc_01_LoginTest@7c29daf3]" name="isSkip" is-config="true" duration-ms="19268" started-at="2020-05-24T06:27:14 IST" finished-at="2020-05-24T06:27:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:POM_FaceBookTestCases.Tc_01_LoginTest@7c29daf3]" name="doLogin" duration-ms="9946" started-at="2020-05-24T06:27:33 IST" data-provider="getData" finished-at="2020-05-24T06:27:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.41011324E9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rani8421@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- POM_FaceBookTestCases.Tc_01_LoginTest -->
+    </test> <!-- Login test -->
+    <test name="Click Profile test" duration-ms="3855" started-at="2020-05-24T06:27:43 IST" finished-at="2020-05-24T06:27:47 IST">
+      <class name="POM_FaceBookTestCases.Tc_02_ProfileTest">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:POM_FaceBookTestCases.Tc_02_ProfileTest@53f65459]" name="isSkip" is-config="true" duration-ms="5" started-at="2020-05-24T06:27:43 IST" finished-at="2020-05-24T06:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="Click_Profile()[pri:0, instance:POM_FaceBookTestCases.Tc_02_ProfileTest@53f65459]" name="Click_Profile" duration-ms="3816" started-at="2020-05-24T06:27:43 IST" finished-at="2020-05-24T06:27:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_Profile -->
+      </class> <!-- POM_FaceBookTestCases.Tc_02_ProfileTest -->
+    </test> <!-- Click Profile test -->
+    <test name="Edit Profile test" duration-ms="4244" started-at="2020-05-24T06:27:47 IST" finished-at="2020-05-24T06:27:52 IST">
+      <class name="POM_FaceBookTestCases.Tc_03_EditProfileTest">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:POM_FaceBookTestCases.Tc_03_EditProfileTest@4d41cee]" name="isSkip" is-config="true" duration-ms="5" started-at="2020-05-24T06:27:47 IST" finished-at="2020-05-24T06:27:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="Edit_Profile()[pri:0, instance:POM_FaceBookTestCases.Tc_03_EditProfileTest@4d41cee]" name="Edit_Profile" duration-ms="4210" started-at="2020-05-24T06:27:47 IST" finished-at="2020-05-24T06:27:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Profile -->
+      </class> <!-- POM_FaceBookTestCases.Tc_03_EditProfileTest -->
+    </test> <!-- Edit Profile test -->
+    <test name="Upload photo test" duration-ms="26099" started-at="2020-05-24T06:27:52 IST" finished-at="2020-05-24T06:28:18 IST">
+      <class name="POM_FaceBookTestCases.Tc_04_UploadPhotoTest">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:POM_FaceBookTestCases.Tc_04_UploadPhotoTest@4493d195]" name="isSkip" is-config="true" duration-ms="4" started-at="2020-05-24T06:27:52 IST" finished-at="2020-05-24T06:27:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="Upload_Photo()[pri:0, instance:POM_FaceBookTestCases.Tc_04_UploadPhotoTest@4493d195]" name="Upload_Photo" duration-ms="26080" started-at="2020-05-24T06:27:52 IST" finished-at="2020-05-24T06:28:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_Photo -->
+      </class> <!-- POM_FaceBookTestCases.Tc_04_UploadPhotoTest -->
+    </test> <!-- Upload photo test -->
+    <test name="Save photo test" duration-ms="5442" started-at="2020-05-24T06:28:18 IST" finished-at="2020-05-24T06:28:23 IST">
+      <class name="POM_FaceBookTestCases.Tc_05_SaveButtonTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:POM_FaceBookTestCases.Tc_05_SaveButtonTest@34cd072c]" name="init" is-config="true" duration-ms="22630" started-at="2020-05-24T06:26:51 IST" finished-at="2020-05-24T06:27:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:POM_FaceBookTestCases.Tc_05_SaveButtonTest@34cd072c]" name="isSkip" is-config="true" duration-ms="2" started-at="2020-05-24T06:28:18 IST" finished-at="2020-05-24T06:28:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="Click_SaveButton()[pri:0, instance:POM_FaceBookTestCases.Tc_05_SaveButtonTest@34cd072c]" name="Click_SaveButton" duration-ms="5437" started-at="2020-05-24T06:28:18 IST" finished-at="2020-05-24T06:28:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_SaveButton -->
+      </class> <!-- POM_FaceBookTestCases.Tc_05_SaveButtonTest -->
+    </test> <!-- Save photo test -->
+  </suite> <!-- Data_Driven_Framework -->
+</testng-results>

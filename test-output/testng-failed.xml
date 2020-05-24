@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data_Driven_Framework]">
+  <test thread-count="5" name="Save photo test(failed)">
+    <classes>
+      <class name="POM_FaceBookTestCases.Tc_05_SaveButtonTest">
+        <methods>
+          <include name="init"/>
+          <include name="Click_SaveButton"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- POM_FaceBookTestCases.Tc_05_SaveButtonTest -->
+    </classes>
+  </test> <!-- Save photo test(failed) -->
+</suite> <!-- Failed suite [Data_Driven_Framework] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes> 
+      <class name="POM_FaceBookTestCases.Tc_01_LoginTest"/>
+      <class name="POM_FaceBookTestCases.Tc_02_ProfileTest"/>
+      <class name="POM_FaceBookTestCases.Tc_03_EditProfileTest"/>
+      <class name="POM_FaceBookTestCases.Tc_04_UploadPhotoTest"/>
+       <class name="POM_FaceBookTestCases.Tc_05_SaveButtonTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
